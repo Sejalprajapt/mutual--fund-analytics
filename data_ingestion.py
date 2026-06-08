@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 
-folder = "Data/raw"
-# look inside Data/raw folder
+folder = "data/raw"
+# look inside data/raw folder
 for file in os.listdir(folder):
     if file.endswith(".csv"):
         path = os.path.join(folder, file)
